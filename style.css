@@ -1,0 +1,90 @@
+body{
+    background-color: #141519;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+.card{
+  border: 2px solid;
+  border-radius: 31px;
+  height: 400px;
+  width: 400px;
+  margin: 26vh auto;
+   display: flex;
+  align-items: center;
+  justify-content: center; 
+  background-image: linear-gradient(180deg, #202833, #171c24);
+  
+  
+  }
+  
+  .numberCircle {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  padding: 8px;
+  margin: 8px;
+  background: #262F38;
+  color: #7E868F;
+  text-align: center;
+    display: inline-block;
+  font: 32px Arial, sans-serif;
+  cursor: pointer;
+}
+
+  .heading{
+    color: white;   
+  }
+
+  .card-text{
+    font-size: 20px;
+    color: #676D77;
+  }
+
+  .btn{
+    height: 50px;
+    border-radius: 42px;
+    background-color: #FF760E;
+    color: white;
+width: 357px;
+padding-top: 10px;
+font-size: 18px;
+
+  }
+.thanksValue{
+    font-size: 20px;
+    color: #FF760E;
+    margin-left: 75px;
+}
+
+.thanks{
+    color: white;
+    margin-left: 80px;
+    
+}
+
+.thanksNote{
+    margin-top: 30px;
+    color: #676D77;
+    padding-left: 0px;
+    font-size: 20px;
+}
+  .btn:hover{
+color: #FF760E;
+background-color: white;
+}
+
+svg{
+margin-left: 18px;
+  margin-top: 84px;
+    border-radius: 50%;
+  }
+
+  .numberCircle:hover{
+ background-color:  #7B8898;
+ color: white;
+}
+
+.numberCircle.active{
+  background-color: #FF760E;
+}
